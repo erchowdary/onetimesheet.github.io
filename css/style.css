@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body 
+ {
+	 padding:0;
+	 margin:0;
+	  font-family: 'Lato', sans-serif;
+	 font-size:14px;
+	 color:#212121;
+	 background:url("../images/background-in.jpg") center top;
+	 -webkit-background-size:cover;
+	 -moz-background-size:cover;
+	 -ms-background-size:cover;
+	 -o-background-size:cover;
+	 background-size:cover;
+	 }
+body.home 
+ {
+	 background:url("../images/background.jpg") center top;
+	 -webkit-background-size:cover;
+	 -moz-background-size:cover;
+	 -ms-background-size:cover;
+	 -o-background-size:cover;
+	 background-size:cover;
+	 }
+h1,h2,h3,h4,h5,h6
+ {
+	 font-family: 'Lato', sans-serif;
+	 }
+h1 
+ {
+	 font-size:26px;
+	 }
+h2 
+ {
+	 font-size:24px;
+	 }
+h3 
+ {
+	 font-size:22px;
+	 }
+h4 
+ {
+	 font-size:20px;
+	 }
+h5 
+ {
+	 font-size:18px;
+	 }
+h6 
+ {
+	 font-size:16px;
+	 }
+ul,li 
+ {
+	 list-style:none;
+	 padding:0;
+	 margin:0;
+	 }
+a 
+ {
+	 color:#d96a3c;
+	 }
+a:hover ,a:focus
+ {
+	 text-decoration:none;
+	 outline:0;
+	 color:#dc9358;
+	 }
+p 
+ {
+	 line-height:25px;
+	 }
+address 
+ {
+	 line-height:24px;
+	 }
+.clear 
+ {
+	 clear:both;
+	 }
+.tpad 
+ {
+	 padding-top:10px;
+	 }
+.rpad 
+ {
+	 padding-right:10px;
+	 }
+.bpad 
+ {
+	 padding-bottom:10px;
+	 }
+.lpad 
+ {
+	 padding-left:10px;
+	 }
+.tbpad 
+ {
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 }
+.tmarg 
+ {
+	 margin-top:5px;
+ }
+.bmarg-0 
+ {
+	 margin-bottom:0;
+ }
+.trblmarg-0 
+ {
+	 margin:0;
+ }
+ .tmarg-10
+ {
+	 margin-top:10px;
+ }
+.rlpad 
+ {
+	 padding-right:10px;
+	 padding-left:10px;
+	 }
+.trblpad 
+ {
+	 padding:10px;
+	 }
+.tspace 
+ {
+	 padding-top:30px;
+	 }
+.bspace 
+ {
+	 padding-bottom:30px;
+	 }
+.tbspace 
+ {
+	 padding-top:30px;
+	 padding-bottom:30px;
+	 }
+.fw7 
+ {
+	 font-weight:700;
+ }
+ .bg-1 
+  {
+	background:#b7c8ed;  
+  }
+ .bg-2 
+  {
+	background:#666;  
+  }
+ .bg-w 
+  {
+	background:#fff;  
+  }
+ .bg-blue 
+  {
+	background:#00a2e1;  
+  }
+ .txt-666 
+  {
+	  color:#666;
+  }
+ .relative 
+  {
+	  position:relative;
+  }
+ .pos-abs 
+  {
+	  position:absolute;
+  }
+ .lft-0 
+  {
+	left:0;  
+  }
+ .rft-0 
+  {
+	  right:0;
+  }
+ .top-0 
+  {
+	  top:0;
+  }
+  .btnr 
+   {
+	   border-radius:50%;
+	   width:30px;
+	   height:30px;
+	   display:inline-block;
+	   text-align:center;
+	   padding-top:4px;
+	  
+   }
+/**************************** HEADER START HERE *************************** */
+.header 
+ {
+	 background:#fff;
+	 border-bottom:2px solid #0071b5;
+ }
+.logo-mn 
+ {
+	 padding:5px 0;
+	 display:inline-block;
+ }
+ .menu-nv 
+  {
+	  float:left;
+	  background: linear-gradient(to right, #666 50%, #fff 50%);
+	  margin-right:65px;
+	  
+  }
+.menu-nv >li
+ {
+	float:left; 
+ }
+.menu-nv >li a 
+ {
+	 padding:12px 14px;
+	 display:inline-block;
+	 background:#666;
+	 color:#fff;
+	 border-radius: 0 25px 25px 0;
+	 font-size:18px;
+	 font-weight:bold;
+ }
+.menu-nv >li:first-child a 
+ {
+	 background:#00a2e1;
+	 padding-left:15px;
+ }
+.logo-sm  
+ {
+	 float:right;
+	 text-align:right;
+	 margin-right:15px;
+	 position:absolute;
+	 right:15px;
+	 padding:3px 0;
+ }
+/**************************** VIDEO START HERE *************************** */
+
+/**************************** MIDDLE PANEL START HERE *************************** */
+#middlePanel 
+ {
+	
+	 }
+.menu-mn >li
+ {
+	 float:left;
+	 width:50%;
+ }
+.menu-mn >li >a 
+ {
+	 border-radius:20px;
+	 background:#000;
+	 background: -webkit-radial-gradient(#16baff,#0071b5);
+	 background: -moz-radial-gradient(#16baff,#0071b5);
+	 background: -ms-radial-gradient(#16baff,#0071b5);
+	 background: -o-radial-gradient(#16baff,#0071b5);
+	 background: radial-gradient(#16baff,#0071b5);
+	 margin:5px;
+	 text-align:center;
+	 display:block;
+	 padding:10px;
+	 min-height:180px;
+	 position:relative;
+ }
+ .menu-mn >li >a >span 
+  {
+	  position:absolute;
+	  top:50%;
+	  -webkit-transform:translateY(-50%); 
+	  -moz-transform:translateY(-50%); 
+	  -ms-transform:translateY(-50%); 
+	  -o-transform:translateY(-50%);
+	  transform:translateY(-50%);
+	  right:0;
+	  left:0;
+	  padding:10px;
+  }
+ .menu-mn >li >a h4 
+  {
+	  padding-top:10px;
+	  color:#fff;
+	  font-weight:bold;
+  }
+  .menu-sl 
+   {
+	   margin:4px 0 0 0;
+	   display:inline-block;
+   }
+ .menu-sl >li 
+  {
+	  float:left;
+	  background:#00a2e1;
+	  margin-left:10px;
+	  padding:4px 8px;
+  }
+ .menu-sl >li a 
+    {
+		color:#fff;
+	}
+.menu-sl >li a > span 
+ {
+	 width:30px;
+	 height:30px;
+	 background:#b7c8ed;
+	 border-radius:50%;
+	 display:inline-block;
+	 position:relative;
+	 float:left;
+	 margin-right:5px;
+ }
+.menu-sl >li a > span svg 
+ {
+	 position:absolute;
+	 right:0;
+	 left:0;
+	  -webkit-transform:translateY(-50%); 
+	  -moz-transform:translateY(-50%); 
+	  -ms-transform:translateY(-50%); 
+	  -o-transform:translateY(-50%);
+	  transform:translateY(-50%);
+	 top:50%;
+	 text-align:center;
+	 margin:0 auto;
+ }
+ .menu-sl >li a b 
+  {
+	padding: 4px 0;
+	display: inline-block;
+  }
+.ad-bar-1 
+ {
+	text-align:center;
+	padding:0 15px;
+	color:#fff;	
+ }
+.ad-bar-1 >h2 
+ {
+	 padding:0;
+	 margin:0;
+	 font-size:16px;
+ }
+ .ad-bar-3 >h3 
+ {
+	padding:10px 0;
+	color:#fff;
+font-size:16px;
+ margin:0;
+ }
+.ad-bar-1 span 
+ {
+	 font-size:14px;
+ }
+ .table-h thead
+  {
+	  background:#b7c8ed;
+  }
+.table-h tbody tr:nth-child(odd)
+ {
+	 background:#f1f1f1;
+ }
+.table-h tbody tr:nth-child(even)
+ {
+	 background:#f9f9f9;
+ }
+ .table-h tbody tr td span 
+  {
+	font-size:14px;
+	color:#666;
+  }
+.toa-lst li
+ {
+	position:relative; 
+	width:100%;
+	padding:5px;
+ }
+ .toa-lst li span.chk 
+  {
+	  position:absolute;
+	  right:5px;
+	  bottom:0;
+  }
+   .toa-lst li label 
+    {
+		color:#666;
+	}
+ .toa-lst li:nth-child(even)
+	{
+		 background: linear-gradient(to right, #ecf3f3, #bcd2d3);
+	}
+ .toa-lst li:nth-child(odd)
+	{
+		 background: linear-gradient(to right, #dae3ea, #a1bdcf);
+	}
+/**************************** FORM START HERE *************************** */
+
+/**************************** LIST START HERE *************************** */
+
+/**************************** FOOTER START HERE *************************** */
+.fot
+ {
+	 background:#00a2e1;
+ }
+.btn-lst 
+ {
+	 float:right;
+ }
+.btn-lst >li 
+ {
+	 float:left;
+	 margin-right:10px;
+	 padding:5px 0;
+ }
+.btn-lst >li:last-child 
+ {
+	 margin-right:0;
+ } 
+.btn-lst >li >button 
+ {
+	 background:#aee0e8;
+	 border:1px solid #aee0e8;
+	 color:#00a2e1;
+	 cursor:pointer;
+	 padding:5px 10px 5px 36px;
+	 position:relative;
+ }
+.btn-lst >li >button >span 
+ {
+	 background:#00a2e1;
+	 color:#fff;
+	 border-radius:50%;
+	 height:24px;
+	 width:24px;
+	 display:inline-block;
+	 float:left;
+	 position:absolute;
+	 left:6px;
+	 top:50%;
+	 transform:translateY(-50%);
+ }
