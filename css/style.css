@@ -126,6 +126,14 @@ address
  {
 	 padding:10px;
 	 }
+.tpad-0 
+ {
+	 padding-top:0;
+ }
+ .bpad-0 
+ {
+	 padding-bottom:0;
+ }
 .tspace 
  {
 	 padding-top:30px;
@@ -335,8 +343,14 @@ address
 .ad-bar-1 
  {
 	text-align:center;
-	padding:0 15px;
+	padding:8px 15px;
 	color:#fff;	
+	min-height:40px;
+ }
+.ad-bar-1-tb-pad-0 
+ {
+	padding-top:0;
+	padding-bottom:0;	
  }
 .ad-bar-1 >h2 
  {
@@ -442,3 +456,179 @@ font-size:16px;
 	 top:50%;
 	 transform:translateY(-50%);
  }
+ .icon-field 
+  {
+	  position:relative;
+  }
+ .icon-field span 
+  {
+	  position:absolute;
+	  right:10px;
+	  color:#666;
+	  top:50%;
+	  transform:translateY(-50%);
+  }
+  
+  
+  #topMenu { 
+    overflow: auto;
+}
+
+#box {
+
+  position:relative;
+  /*margin:0 auto;*/
+  padding:5px;
+  width:100%;
+}
+
+.scroller {
+  color:#ffffff;
+  width:40px;
+  text-align:center;
+  cursor:pointer;
+  display:none;
+  padding:5px;
+  margin-top:5px;
+}
+
+.scroller-right{
+  float:right;
+}
+
+.scroller-left {
+  float:left;
+}
+
+.wrapper {
+    position:relative;
+    margin:0 auto;
+    overflow:hidden;
+	padding:5px;
+  	height:40px;
+}
+
+.list {
+    position:absolute;
+    left:0px;
+    top:0px;
+  	min-width:3000px;
+  	margin-left:12px;
+    margin-top:0px;
+}
+
+
+.item{
+  	padding:10px;
+   /*float:left;*/
+	display:table-cell;
+    margin:1px;
+    position:relative;
+    text-align:center;
+    cursor:grab;
+    cursor:-webkit-grab;
+    color:#efefef;
+   vertical-align:middle;
+}
+.nt-lst 
+ {
+	 
+ }
+ .nt-lst >li 
+  {
+	  padding-top:10px;
+	  width:100%;
+	  display:inline-block;
+  }
+ .nt-lst >li:nth-child(even)
+	{
+		 background: linear-gradient(to right, #ecf3f3, #bcd2d3);
+	}
+ .nt-lst >li:nth-child(odd)
+	{
+		 background: linear-gradient(to right, #dae3ea, #a1bdcf);
+	}
+.nt-icon 
+ {
+	 float:left;
+	 width:110px;
+	 height:110px;
+ }
+ .nt-icon >span 
+  {
+	  width:100px;
+	  height:100px;
+	  position:relative;
+	  background:#f276a0;
+	  border-radius:50%;
+	  display:inline-block;
+  }
+  .nt-lst >li:nth-child(1) .nt-icon >span
+   {
+	  background:#f276a0;  
+   }
+   .nt-lst >li:nth-child(2) .nt-icon >span
+   {
+	  background:#96a5d4;  
+   }
+    .nt-lst >li:nth-child(3) .nt-icon >span
+   {
+	  background:#bd77b2;  
+   }
+.nt-icon >span > svg
+ {
+	 position:absolute;
+	 top:50%;
+	 transform:translateY(-50%);
+	 right:0;
+	 left:0;
+	 margin:0 auto;
+	 color:#fff;
+	 font-size:50px;
+ }
+.nt-data 
+ {
+	 overflow:hidden;
+ }
+.nt-data h4 
+ {
+	 padding:0;
+	 margin:0;
+	 font-weight:bold;
+ }
+ .nt-data p 
+  {
+	  color:#666;
+  }
+ .nt-data .dt-icon, .nt-data .tm-icon
+  {
+	float:left;
+   width:50%;	
+   line-height:30px;
+  }
+ .nt-data .dt-icon span, .nt-data .tm-icon span
+  {
+	width:30px;
+	  height:30px;
+	  position:relative;
+	  background:#f276a0;
+	  border-radius:50%;
+	  display:inline-block;	
+	  float:left;
+	  margin-right:10px;
+  }
+  .nt-data .dt-icon span svg, .nt-data .tm-icon span svg
+   {
+	   position:absolute;
+	 top:50%;
+	 transform:translateY(-50%);
+	 right:0;
+	 left:0;
+	 margin:0 auto;
+	 color:#fff;
+	 font-size:16px;
+   }
+ .nt-data .tm-icon span 
+  {
+	 background:#6a82fb; 
+  }
